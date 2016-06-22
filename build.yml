@@ -1,6 +1,6 @@
 ---
 
-# ansible-playbook -i 'localhost,' build.yml --extra-vars="config_file=vars/1.5.1.yml output_directory=1.5.1"
+# ansible-playbook -i 'localhost,' build.yml --extra-vars="config_file=vars/2.1.2.yml output_directory=2.1.2"
 
 - name: build blazegraph dockerfiles
   hosts: localhost

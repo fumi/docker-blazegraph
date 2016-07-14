@@ -13,4 +13,4 @@ ENV BLAZEGRAPH_VERSION_URL http://sourceforge.net/projects/bigdata/files/bigdata
 ADD RWStore.properties $BLAZEGRAPH_RW_PATH
 
 RUN wget -O ${BLAZEGRAPH_NAME}.jar $BLAZEGRAPH_VERSION_URL
-RUN wget https://s3.amazonaws.com/watdiv/benchmarkerconfigs/fastload.properties
+RUN wget https://raw.githubusercontent.com/laurensdv/docker-blazegraph/master/2.1.2/RWStore.properties
